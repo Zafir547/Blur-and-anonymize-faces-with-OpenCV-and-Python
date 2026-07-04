@@ -5,7 +5,7 @@ A Python project that automatically detects faces in images and video streams (u
 Image Pixelated Detection 
 | Original | Pixelated |
 |---|---|
-| ![original](examples/robert_downey_jr.png) | ![pixelated](results/robert_downey_jr_pixelated.png) |
+| ![original](examples/scarlett_johansson.png) | ![pixelated](results/robert_downey_jr_pixelated.png) |
 
 Video Frame Pixelated Detection
 
