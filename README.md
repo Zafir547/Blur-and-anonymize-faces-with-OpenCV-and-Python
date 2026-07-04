@@ -31,7 +31,7 @@ Blurring_Face_Project
 
 - **`examples/`** — sample images used to test the pipeline
 - **`face_detector/`** — pre-trained Caffe-based SSD face detector (prototxt + weights)
-- **`pyimagesearch/face_blurring.py`** — core blurring/pixelation logic
+- **`microimagesearch/face_blurring.py`** — core blurring/pixelation logic
 - **`blur_face.py`** — runs face anonymization on a single image
 - **`blur_face_video.py`** — runs face anonymization in real time on a webcam stream
 
