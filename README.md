@@ -29,19 +29,19 @@ Blurring_Face_Project
 └── blur_face_video.py
 ```
 
-- **`examples/`** — sample images used to test the pipeline
-- **`face_detector/`** — pre-trained Caffe-based SSD face detector (prototxt + weights)
-- **`microimagesearch/face_blurring.py`** — core blurring/pixelation logic
-- **`blur_face.py`** — runs face anonymization on a single image
-- **`blur_face_video.py`** — runs face anonymization in real time on a webcam stream
+- **`examples/`** sample images used to test the pipeline
+- **`face_detector/`** pre-trained Caffe-based SSD face detector (prototxt + weights)
+- **`microimagesearch/face_blurring.py`** core blurring/pixelation logic
+- **`blur_face.py`** runs face anonymization on a single image
+- **`blur_face_video.py`** runs face anonymization in real time on a webcam stream
 
 ## How It Works
 
 1. A pre-trained **SSD face detector** (Caffe model, `res10_300x300_ssd_iter_140000.caffemodel`) locates faces in each frame/image.
 2. Each detected face region (ROI) is cropped out.
 3. The ROI is anonymized using one of two methods:
-   - **`simple`** — applies a strong Gaussian blur over the whole face.
-   - **`pixelated`** — divides the face into an N×N grid of blocks and replaces each block with its average color, creating a classic "censored" pixelation effect.
+   - **`simple`** applies a strong Gaussian blur over the whole face.
+   - **`pixelated`** divides the face into an N×N grid of blocks and replaces each block with its average color, creating a classic "censored" pixelation effect.
 4. The anonymized face is written back into the original frame/image.
 
 ## Requirements
