@@ -1,8 +1,4 @@
-# Blur-and-anonymize-faces-with-OpenCV-and-Python
-Blur and anonymize faces with OpenCV and Python `Demo Project`
-
-# Face Blurring / Anonymization Project
-
+# Face Blur and Anonymize Faces with OpenCV and Python
 A Python project that automatically detects faces in images and video streams (using OpenCV's DNN-based face detector) and anonymizes them using either a **Gaussian blur** or a **pixelation** effect.
 
 ## Demo
